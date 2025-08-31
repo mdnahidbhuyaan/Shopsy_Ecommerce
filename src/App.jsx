@@ -5,6 +5,7 @@ import Product from './components/product/Product'
 import AOS from 'aos'
 import TopProduct from './components/TopProduct/TopProduct'
 import Banner from './components/Banner/Banner'
+import Subscribe from './components/subscribe/Subscribe'
 
 const App = () => {
     React.useEffect(() => {
@@ -25,6 +26,8 @@ const App = () => {
       <Product/>
       <TopProduct/>
       <Banner/>
+      <Subscribe/>
+      <Product/>
     </div>
   )
 }
