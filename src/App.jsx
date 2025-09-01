@@ -6,6 +6,7 @@ import AOS from 'aos'
 import TopProduct from './components/TopProduct/TopProduct'
 import Banner from './components/Banner/Banner'
 import Subscribe from './components/subscribe/Subscribe'
+import Testimonials from './components/Testimonials/Testimonials'
 
 const App = () => {
     React.useEffect(() => {
@@ -28,6 +29,7 @@ const App = () => {
       <Banner/>
       <Subscribe/>
       <Product/>
+      <Testimonials/>
     </div>
   )
 }
