@@ -28,7 +28,7 @@ const ImageList = [
       "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
-const Hero = () => {
+const Hero = ({handleOrderPopup}) => {
     // eslint-disable-next-line no-unused-vars
     var settings = {
     dots: false,
@@ -72,7 +72,9 @@ const Hero = () => {
               data-aos-duration="500"
               data-aos-delay="300"
               >
-                <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
+                <button
+                onClick={() => handleOrderPopup()}
+                className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
                   Order Now
                 </button>
               </div>
